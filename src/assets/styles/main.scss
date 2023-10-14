@@ -1,0 +1,45 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  &::after {
+    content: "";
+    margin-left: auto;
+  }
+}
+
+.main {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: center;
+  &__title {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  &__total {
+    font-size: 16px;
+    color: #767e94;
+    margin-bottom: 24px;
+  }
+
+  &__pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+}
+
+.MuiPaginationItem-root {
+  color: white !important;
+}

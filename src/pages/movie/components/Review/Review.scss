@@ -1,0 +1,21 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__name {
+      font-size: 20px;
+    }
+
+    &__comment {
+      color: gray;
+    }
+  }
+}
